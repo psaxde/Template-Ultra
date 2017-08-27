@@ -1,0 +1,1179 @@
+@font-face {
+	font-family: 'Ubuntu-Bold';
+	src: url(../fonts/Ubuntu-B.ttf);
+}
+
+@font-face {
+	font-family: 'Proxima-Nova-Regular';
+	src: url(../fonts/Proxima Nova Regular.ttf);
+}
+
+@font-face {
+	font-family: 'Ubuntu-Light-Italic';
+	src: url(../fonts/Ubuntu-LI.ttf);
+}
+
+@font-face {
+	font-family: 'Roboto-Medium';
+	src: url(../fonts/Roboto-Medium_0.ttf);
+}
+
+@font-face {
+	font-family: 'Roboto-Light';
+	src: url(../fonts/Roboto-Light_0.ttf);
+}
+
+@font-face {
+	font-family: 'Roboto-Black';
+	src: url(../fonts/Roboto-Black_0.ttf);
+}
+
+@font-face {
+	font-family: 'Roboto-Bold';
+	src: url(../fonts/Roboto-Bold_0.ttf);
+}
+
+.buttonColor1 {
+	background-color: #02369e;
+}
+
+.buttonColor2 {
+	background-color: #0a4db8;
+}
+
+.buttonColor3 {
+	background-color: #165ed1;
+}
+
+.links:hover {
+	text-decoration: none;
+}
+
+.container {
+	background-color: #eff2f7;
+    width: 1440px;
+}
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.buttonRow3:hover {
+	background: #fefeff;
+	color: #02369e;
+	-webkit-animation-name: buttonRow3;
+    animation-name: buttonRow3;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+}
+
+@-webkit-keyframes buttonRow3 {
+  from, 11.1%, to {
+    -webkit-transform: none;
+    transform: none;
+  }
+
+  22.2% {
+    -webkit-transform: skewX(-12.5deg) skewY(-12.5deg);
+    transform: skewX(-12.5deg) skewY(-12.5deg);
+  }
+
+  33.3% {
+    -webkit-transform: skewX(6.25deg) skewY(6.25deg);
+    transform: skewX(6.25deg) skewY(6.25deg);
+  }
+
+  44.4% {
+    -webkit-transform: skewX(-3.125deg) skewY(-3.125deg);
+    transform: skewX(-3.125deg) skewY(-3.125deg);
+  }
+
+  55.5% {
+    -webkit-transform: skewX(1.5625deg) skewY(1.5625deg);
+    transform: skewX(1.5625deg) skewY(1.5625deg);
+  }
+
+  66.6% {
+    -webkit-transform: skewX(-0.78125deg) skewY(-0.78125deg);
+    transform: skewX(-0.78125deg) skewY(-0.78125deg);
+  }
+
+  77.7% {
+    -webkit-transform: skewX(0.390625deg) skewY(0.390625deg);
+    transform: skewX(0.390625deg) skewY(0.390625deg);
+  }
+
+  88.8% {
+    -webkit-transform: skewX(-0.1953125deg) skewY(-0.1953125deg);
+    transform: skewX(-0.1953125deg) skewY(-0.1953125deg);
+  }
+}
+
+@keyframes buttonRow3 {
+  from, 11.1%, to {
+    -webkit-transform: none;
+    transform: none;
+  }
+
+  22.2% {
+    -webkit-transform: skewX(-12.5deg) skewY(-12.5deg);
+    transform: skewX(-12.5deg) skewY(-12.5deg);
+  }
+
+  33.3% {
+    -webkit-transform: skewX(6.25deg) skewY(6.25deg);
+    transform: skewX(6.25deg) skewY(6.25deg);
+  }
+
+  44.4% {
+    -webkit-transform: skewX(-3.125deg) skewY(-3.125deg);
+    transform: skewX(-3.125deg) skewY(-3.125deg);
+  }
+
+  55.5% {
+    -webkit-transform: skewX(1.5625deg) skewY(1.5625deg);
+    transform: skewX(1.5625deg) skewY(1.5625deg);
+  }
+
+  66.6% {
+    -webkit-transform: skewX(-0.78125deg) skewY(-0.78125deg);
+    transform: skewX(-0.78125deg) skewY(-0.78125deg);
+  }
+
+  77.7% {
+    -webkit-transform: skewX(0.390625deg) skewY(0.390625deg);
+    transform: skewX(0.390625deg) skewY(0.390625deg);
+  }
+
+  88.8% {
+    -webkit-transform: skewX(-0.1953125deg) skewY(-0.1953125deg);
+    transform: skewX(-0.1953125deg) skewY(-0.1953125deg);
+  }
+}
+
+.row1Text1, #bigTextRow2, .row4text, .links, .row5and6bigText {
+    font-family: 'Roboto-Light';
+}
+
+.row1Text2,#smallTextRow2 {
+    font-family: 'Roboto-Black';
+}
+
+.Row5smallText,#formTitleText {
+    font-family: 'Roboto-Bold';
+}
+
+#row1 {
+	height: 111px;
+}
+
+.containerForUltraService {
+    width: 156px;
+    height: 65px;
+    background-image: url(../img/UltraServiceRow1.png);
+    background-size: 100% 100%;
+    margin-left: 80px;
+    margin-top: 15px;
+}
+
+.row1Text1 {
+	font-size: 15px;
+	font-weight: bold;
+	color: #5a6070;
+	border-bottom: 1px dashed #c2c2c4;
+	text-decoration: none;
+    text-align: center;
+}
+
+.containerForText {
+	height: 15px;
+	margin-left: 110px;
+	margin-bottom: 100px;
+	margin-top: 53px;
+    width: 246px;
+}
+
+.row1Text2 {
+	padding-top: 50px;
+	text-align: center;
+	font-size: 18px;
+}
+
+#heightRow1Col2 {
+	height: 111px;
+}
+
+#row2 {
+	height: 564px;
+	background-image: url(../img/shutterstock_5724496.jpg);
+	background-size: 100% 100%;
+}
+
+#bigTextRow2 {
+	color: #ffffff;
+	padding-top: 143px;
+	padding-left: 188px;
+	font-size: 46px;
+	letter-spacing: 2px;
+	font-weight: 100;
+}
+
+#smallTextRow2 {
+	color: #ffffff;
+	padding-left: 188px;
+	padding-top: 18px;
+	letter-spacing: 1px;
+	word-spacing: 1px;
+	font-weight: 200;
+}
+
+.buttonRow2 {
+	height: 40px;
+	width: 156px;
+	margin-left: 188px;
+	margin-top: 55px;
+	background-color: Transparent;
+	border-color: #959595;
+	font-family: 'Ubuntu';
+	font-size: 8px;
+	color: #959595;
+	letter-spacing: 3px;
+	text-align: center;
+	border-radius: 2px;
+}
+
+.containerForForms {
+	height: 375px;
+	width: 250px;
+	margin-top: 90px;
+	background-image: url(../img/ImageForms.jpg);
+	margin-left: 165px;
+}
+
+#rowForTitleAndMail {
+	height: 94px;
+}
+
+#formTitleText {
+	padding-left: 30px;
+	padding-top: 54px;
+	font-size: 14px;
+	letter-spacing: 2px;
+}
+
+.formfields {
+	padding-left: 40px;
+	width: 30px;
+	padding-top: 35px;
+    width: 250px;
+}
+
+.field1 {
+	width: 200px;
+	height: 35px;
+	margin-bottom: 10px;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.textbeneathfields {
+	font-size: 11px;
+	font-family: 'Ubuntu-Light-Italic';
+	font-weight: bold;
+	color: #656b7a;
+}
+
+#buttonforFields {
+	margin-left: -2px;
+    margin-top: 5px;
+	height: 40px;
+	width: 205px;
+	background-color: #02369e;
+	color: white;
+	font-family: 'Ubuntu-Bold';
+}
+
+.container2 {
+	margin-left: 134px;
+	margin-right: 134px;
+}
+
+.buttonRow3 {
+	height: 269px;
+	width: 389px;
+	float: left;
+	padding: 0;
+    border: none;
+}
+
+.buttonRow3text {
+	letter-spacing: 2px;
+	line-height: 5mm;
+	font-family: 'Proxima-Nova-Regular';
+    text-align: left;
+    margin-left: 45px;
+}
+
+.buttonRow3text6 {
+    font-size: 10px;
+}
+
+.containerForimage1 {
+	height: 53px;
+	width: 53px;
+	background-image: url(../img/button1icon.png);
+}
+
+.containerForimage2 {
+	height: 59px;
+	width: 53px;
+	background-image: url(../img/button2icon.png);
+}
+
+.containerForimage3 {
+	height: 55px;
+	width: 51px;
+	background-image: url(../img/button3icon.png);
+}
+
+.containerForimage4 {
+	height: 56px;
+	width: 64px;
+	background-image: url(../img/button4icon.png);
+}
+
+.containerForimage5 {
+	height: 46px;
+	width: 77px;
+	background-image: url(../img/button5icon.png);
+}
+
+.containerForimage6 {
+	height: 48px;
+	width: 65px;
+	background-image: url(../img/button6icon.png);
+}
+
+.containerForimage7 {
+	height: 46px;
+	width: 66px;
+	background-image: url(../img/button7icon.png);
+	background-size: 100% 100%;
+}
+
+.containerForimage8 {
+	height: 48px;
+	width: 67px;
+	background-image: url(../img/button8icon.png);
+}
+
+.containerForimage9 {
+	height: 53px;
+	width: 54px;
+	background-image: url(../img/button9icon.png);
+}
+
+.containerForimage1,.containerForimage2,.containerForimage3,.containerForimage4,.containerForimage5,.containerForimage6,.containerForimage7,.containerForimage8,.containerForimage9 {
+    margin-left: 50px;
+	margin-bottom: 50px;
+    background-size: 100% 100%;
+}
+
+#row4 {
+	height: 606px;
+	background-image: url(../img/shutterstock_82880944.jpg);
+    background-size: 100% 100%;
+}
+
+.row4text, .row4smallText, #row4text2 {
+    text-align: center;
+	color:#ffffff;
+}
+
+.row4text {
+	text-align: center;
+    padding-top: 110px;
+	font-size: 48px;
+	padding-right: 30px;
+}
+
+.row4smallText {
+	font-size: 16px;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	font-weight: 560;
+    line-height: 23px;
+}
+
+#row4text2 {
+	margin-top: 17px;
+}
+
+#row4button {
+	margin-left: 645px;
+	margin-top: 90px;
+}
+
+#row5 {
+	height: 622px;
+}
+
+.row5and6bigText {
+	letter-spacing: 2px;
+	font-size: 50px;
+    text-align: center;
+}
+
+#Row5text1 {
+	padding-top: 73px;
+}
+
+.Row5smallText {
+	text-align: center;
+    padding-top: 55px;
+    margin-left: -55px;
+    font-size: 12px;
+	letter-spacing: 2px;
+    line-height: 30px;
+}
+
+#Row5smalltext4 {
+    margin-left: -220px;/*vazno za red 5*/
+}
+
+.Row5row2containerForimage1 {
+	background-image: url(../img/Row_5_image_1.jpg);
+	width: 71px;
+	height: 52px;
+	margin-top: 109px;
+	margin-left: 45px;
+}
+
+.Row5row2containerForimage2 {
+	background-image: url(../img/Row_5_image_2.jpg);
+	width: 43px;
+	height: 55px;
+	margin-top: 109px;
+	margin-left: 60px;
+}
+
+.Row5row2containerForimage3 {
+	width: 59px;
+	height: 56px;
+	background-image: url(../img/Row_5_image_3.jpg);
+	margin-top: 109px;
+	margin-left: 105px;
+}
+
+.Row5row2containerForimage4 {
+	width: 54px;
+	height: 54px;
+	background-image: url(../img/Row_5_image_4.jpg);
+	margin-top: 109px;
+	margin-left: 20px;
+}
+
+.Row5row2containerForimage4, .Row5row2containerForimage3, .Row5row2containerForimage2, .Row5row2containerForimage1 {
+    background-size: 100% 100%;
+}
+
+#row5button {
+	margin-left: 645px;
+	margin-top: 85px;
+}
+
+#row6 {
+	height: 606px;
+	background-color: #fefeff;
+}
+
+#row6text {
+	padding-top: 102px;
+}
+
+.containerForMinsk,.containerForBellKristal,.containerForEkspedicija,.containerForRemark,.containerForMatioli,.containerForMagnus {
+    background-size: 100% 100%;
+}
+
+.containerForMinsk {
+	width: 100px;
+	height: 19px;
+	background-image: url(../img/Row_6_Minsk.jpg);
+	margin-left: 178px;
+	margin-top: 135px;
+}
+
+.containerForBellKristal {
+	width: 141px;
+	height: 28px;
+	background-image: url(../img/Row_6_BellKristal.jpg);
+	margin-top: 135px;
+	margin-left: 5px;
+}
+
+.containerForEkspedicija {
+	width: 75px;
+	height: 95px;
+	background-image: url(../img/Row_6_ekspedicija.jpg);
+	margin-top: 86px;
+	margin-left: -22px;
+}
+
+.containerForRemark {
+	width: 150px;
+	height: 21px;
+	background-image: url(../img/Row_6_Remark.jpg);
+	margin-top: 130px;
+	margin-left: 8px;
+}
+
+.containerForMatioli {
+	width: 102px;
+	height: 36px;
+	background-image: url(../img/Row_6_Mattioli.jpg);
+	margin-top: 120px;
+	margin-left: -26px;
+}
+
+.containerForMagnus {
+	width: 124px;
+	height: 45px;
+	background-image: url(../img/Row_6_Magnus.jpg);
+	margin-top: 120px;
+	margin-left: -88px;
+}
+
+#row6button {
+	margin-left: 645px;
+	margin-top: 84px;
+}
+
+#row7 {
+	height: 147px;
+}
+
+.containerForUltraServiceRow7 {
+	width: 157px;
+	height: 65px;
+	background-image: url(../img/Row_7_Ultra-Service.jpg);
+    background-size: 100% 100%;
+	margin-left: 186px;
+	margin-top: 37px;
+}
+
+.navigation {
+	list-style-type: none;
+    margin-top: 50px;
+	margin-left: 135px; 
+    padding: 0;
+    overflow: hidden;
+    background-color: #eff2f6;
+	width: 450px;
+}
+
+.links {
+    color: #646a7a;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	float: left;
+	font-size: 15px;
+	letter-spacing: 2px;
+	font-weight: 700;
+}
+
+.inline {
+	display: inline;
+}
+
+#row7text1 {
+	color: #787d8c;
+	font-weight: bold;
+	font-size: 12px;
+	margin-left: 115px;
+	font-family: 'Roboto-Medium';
+	margin-top: 58px;
+}
+
+#row7text2 {
+	font-family: 'Roboto-Medium';
+	font-weight: 600;
+	margin-left: 145px;
+	font-size: 18px;
+	margin-top: -8px;
+	letter-spacing: 1px;
+}
+
+@media (min-width: 1280px) and (max-width: 1439px) {
+
+  .container {
+      width: 1280px;
+  }
+  .buttonRow3 {
+	  width: 346px;
+  }
+
+  .container2 {
+	margin-left: 120px;
+	margin-right: 120px;
+  }
+
+  #row5button,#row6button,#row4button {
+    margin-left: 550px;
+  }
+
+  #Row5smalltext4 {
+    margin-left: -190px;
+  }
+  .Row5row2containerForimage1 {
+    margin-left: 32px;
+  }
+  .Row5row2containerForimage2 {
+    margin-left: 35px;
+  }
+  .Row5row2containerForimage3 {
+    margin-left: 75px;
+  }
+
+}
+
+@media (min-width: 960px) and (max-width: 1279px) {
+    
+  .containerForUltraService {
+    margin-top: 25px;
+  }
+
+  .container {
+    width: 960px;
+  }
+
+  .containerForText {
+    margin-left: 30px;
+  }
+
+  #bigTextRow2,#smallTextRow2 {
+    padding-left: 80px;
+  }
+
+  .buttonRow2 {
+    margin-top: 55px;
+    margin-left: 80px;
+  }
+
+  .containerForForms {
+    margin-left: 80px;
+ }  
+
+ .container2 {
+    margin-left: 88px;
+	margin-right: 88px;
+ }
+
+ .buttonRow3 {
+	width: 261px;
+    height: 240px;
+ }
+
+ .buttonRow3text {
+    margin-left: 13px;
+    font-size: 12px;
+ }
+
+ .buttonRow3text6 {
+    font-size: 9px;
+ }
+
+ #row5button,#row6button,#row4button {
+	margin-left: 370px;
+ }
+
+ .Row5smallText {
+    font-size: 8px;
+    line-height: 20px;
+ }
+
+ .Row5row2containerForimage1 {
+    margin-left: 5px;
+ }
+
+ .Row5row2containerForimage2 {
+    margin-left: 18px;
+ }
+
+ .Row5row2containerForimage3 {
+    margin-left: 45px;
+ }
+
+ .Row5row2containerForimage4 {
+     margin-left: -24px;
+ }
+
+ .containerForMinsk {
+    margin-left: 50px;
+ }
+
+ .containerForBellKristal {
+    margin-left: -38px;
+ }
+
+ .containerForMatioli {
+    margin-left: 30px;
+ }
+
+  .containerForMagnus {
+    margin-left: -10px;
+ }
+
+ .containerForUltraServiceRow7 {
+    margin-left: 40px;
+ }
+
+ .navigation {
+    margin-left: 15px;
+ }
+
+}
+
+@media (min-width: 768px) and (max-width: 959px) {
+
+ .containerForUltraService {
+    margin-left: 30px;
+ }
+
+ .container {
+    width: 768px;
+ }
+
+ .container2 {
+    margin-left: 0px;
+    margin-right: 0px;
+ }
+
+ .containerForText {
+    margin-left: -10px;
+ }
+
+ #bigTextRow2 {
+    font-size: 30px;
+    padding-left: 30px;
+ }
+
+ #smallTextRow2 {
+    padding-left: 30px;
+ }
+
+ .buttonRow2 {
+    margin-left: 30px;
+  }
+
+ .containerForForms {
+    margin-left: 15px;
+ }  
+
+ .buttonRow3 {
+	width: 256px;
+    height: 240px;
+ }
+
+ .buttonRow3text {
+    margin-left: 15px;
+    font-size: 11px;
+ }
+
+ .buttonRow3text6 {
+    font-size: 9px;
+ }
+
+ #row5button,#row6button,#row4button {
+	margin-left: 287px;
+ }
+
+ .Row5smallText {
+    font-size: 8px;
+    line-height: 15px;
+    letter-spacing: 0.2mm;
+ }
+
+ .Row5row2containerForimage1 {
+    margin-left: -13px;
+ }
+
+ .Row5row2containerForimage2 {
+    margin-left: 5px;
+ }
+
+ #Row5smalltext4 {
+    margin-left: -140px;
+ }
+
+ .Row5row2containerForimage3 {
+    margin-left: 22px;
+ }
+
+ .Row5row2containerForimage4 {
+     margin-left: -16px;
+ }
+
+
+
+ .containerForMinsk {
+    margin-left: 13px;
+    width: 84px;
+	height: 10px;
+    margin-top: 140px;
+ }
+
+ .containerForBellKristal {
+    margin-left: -70px;
+    width: 130px;
+	height: 22px;
+ }
+
+ .containerForMagnus {
+    margin-left: -17px;
+    width: 110px;
+	height: 32px;
+    margin-top: 135px;
+ }
+
+ .containerForMatioli {
+    margin-left: 5px;
+    width: 88px;
+	height: 22px;
+    margin-top: 135px;
+ }
+
+ .containerForEkspedicija {
+    margin-left: -45px;
+    width: 65px;
+	height: 85px;
+ }
+
+ .containerForRemark {
+    margin-left: -20px;
+    width: 135px;
+	height: 12px;
+    margin-top: 140px;
+ }
+
+ .containerForUltraServiceRow7 {
+    margin-left: 20px;
+ }
+
+ .navigation {
+    margin-left: 5px;
+ }
+
+ .links {
+    font-size: 12px;
+    letter-spacing: 1px;
+ }
+
+ #row7text1 {
+    margin-left: 80px;
+    font-size: 10px;
+ }
+
+  #row7text2 {
+    margin-left: 80px;
+ }
+}
+
+@media (min-width: 412px) and (max-width: 767px) {
+    
+ .container {
+    width: 100vw;
+ }
+
+ #row1,#row2,#row4,#row5,#row6,#row7 {
+    height: auto;
+ }
+
+ .containerForUltraService, .containerForUltraServiceRow7{
+    margin-left: 28vw;
+    margin-right: 33vw;
+    width: auto;
+    height: 13vw;
+ }
+
+ .containerForText {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 100px;
+ }
+
+ .buttonRow3 {
+    width: 100vw;
+    height: 220px;
+ }
+
+ .container2 {
+	margin: 0 0;
+ }
+
+ .row1Text2 {
+    margin-bottom: 60px;
+    padding-top: 25px;
+ }
+
+ #bigTextRow2 {
+	padding-top: 30px;
+	padding-left: 5vw;
+    text-align: center;
+	font-size: 20px;
+	letter-spacing: 1px;
+ }
+
+ #smallTextRow2 {
+	padding-left: 5vw;
+    text-align: center;
+ }
+
+ .buttonRow2,#row5button,#row6button,#row4button {
+    width: 50%;
+    margin-left:25vw;
+    margin-right:25vw;
+    font-size: 12px;
+ }
+
+ #row5button,#row6button,#row4button  {
+    margin-bottom: 20px;
+ }
+ #row4button {
+     margin-top: 30px;
+     margin-bottom: 50px;
+ }
+
+ .containerForForms {
+    margin-left: 5vw;
+    margin-bottom: 20px;
+ }
+
+ .Row5row2containerForimage1, .Row5row2containerForimage2, .Row5row2containerForimage3, .Row5row2containerForimage4, #Row5row2containerForimage1ID {
+    margin-left: 33vw;
+    margin-right: auto;
+    width: 20vw;
+    height: 17vw;
+ }   
+
+ .Row5row2containerForimage2 {
+    height: 22vw;
+ }
+
+
+ .Row5smallText {
+    font-size: 12px;
+    margin-left: 0;
+ }
+
+ #Row5smalltext4 {
+    margin-left: -5vw;
+ }
+
+ #Row5smalltext1 {
+    margin-left: -5vw;
+ }
+
+ .containerForMinsk,.containerForMatioli {
+    margin-left: 36vw;
+ }
+
+ .containerForRemark,.containerForBellKristal,.containerForMagnus {
+    margin-left: 33vw;
+ }
+
+ .containerForEkspedicija {
+    margin-left: 37vw;
+ }
+
+ .row5and6bigText {
+    /*font-size: 25px;*/
+    letter-spacing: 1px;
+ }
+
+ .navigation {
+    margin-left: 7vw;
+    width: 88vw;
+    float: none;
+ }
+
+ .links {
+    font-size: 2.5vw;
+ }
+
+ #row7text1,#row7text2 {
+    text-align: center;
+    margin-left: 0;
+ }
+
+ .inline {
+    display: block;
+ }
+
+ 
+ .row4smallText {
+    font-size: 10px;
+    letter-spacing: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+ }
+}
+
+@media (min-width: 320px) and (max-width: 411px) {
+
+ body {
+     width: 100vw; 
+     display: block;
+     margin-right: 0 !important;
+     margin-left: 0 !important;
+     padding-right: 0;
+     padding-left: 0;
+ }   
+    
+ .container {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+ }
+ .row {
+    margin-left: 0;
+    margin-right: 0;
+ }
+
+ .col-lg-12, .col-md-12, .col-sm-12 {
+    padding-left: 0;
+    padding-right: 0;
+ }
+
+ #row1,#row2,#row4,#row5,#row6,#row7 {
+    height: auto;
+ }
+
+ .container2 {
+	margin: 0 0;
+ }
+
+ .containerForText {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 100px;
+ }
+
+ .row1Text2 {
+    margin-bottom: 30px;
+ }
+
+ #bigTextRow2 {
+	padding-top: 30px;
+	padding-left: 5vw;
+    text-align: center;
+	font-size: 20px;
+	letter-spacing: 1px;
+ }
+
+ #smallTextRow2 {
+	padding-left: 5vw;
+    text-align: center;
+ }
+
+ .buttonRow2,#row5button,#row6button,#row4button {
+    width: 50%;
+    margin-left:25vw;
+    margin-right:25vw;
+    font-size: 12px;
+    margin-bottom: 30px;
+ }
+
+ .containerForForms {
+    margin-left: 8vw;
+    margin-bottom: 20px;
+ }
+
+ .row5and6bigText {
+    font-size: 20px;
+ }
+
+ .row4smallText {
+    font-size: 10px;
+    letter-spacing: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+ }
+
+ .containerForUltraService, .containerForUltraServiceRow7 {
+    margin-left: 22vw;
+ }
+
+ #row7text1,#row7text2 {
+    text-align: center;
+    margin-left: 0;
+ }
+
+ .navigation {
+    margin-left: 7vw;
+    width: 88vw;
+ }
+
+ .links {
+    font-size: 10px;
+    letter-spacing: 0;
+    padding: 8px 4vw;
+ }
+
+ .Row5row2containerForimage1, .Row5row2containerForimage2, .Row5row2containerForimage3, .Row5row2containerForimage4 {
+    margin-left: 38vw;
+ }
+
+ #Row5smalltext4 {
+    margin-left: -7vw;
+ }
+
+ .Row5smallText {
+    margin-left: 0;
+ }
+
+ .containerForMinsk,.containerForMatioli {
+    margin-left: 35vw;
+ }
+
+ .containerForRemark,.containerForBellKristal,.containerForMagnus {
+    margin-left: 30vw;
+ }
+
+ .containerForEkspedicija {
+    margin-left: 37vw;
+ }
+
+ .buttonRow3 {
+    width: 100vw;
+    height: 210px;
+ }
+
+ .buttonRow3text {
+    padding-right: 20px;
+    font-size: 10px;
+ }
+ .row6button {
+    font-size: 10px;
+ }
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
